@@ -1,0 +1,84 @@
+.nav-bar{
+    height: 10%;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+.logo{
+    height: 8%;
+}
+.nav-menu{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+.link{
+    text-decoration: none;
+    font-weight: 600;
+    color:black;
+}
+.link:hover{
+    color: orange;
+}
+select{
+    min-width: 0px;
+}
+.popup-ul{
+    list-style-type:none;
+    font-weight: bold;
+    width: max-content;
+    padding-left: 10px;
+}
+.popup-ul>li:hover{
+color: orange;
+background-color: rgb(244, 247, 248);
+opacity: 0.5;
+}
+
+.black{
+    color: rgb(161, 120, 120);
+    display: block;
+}
+.popup-content {  margin: auto;  background: rgb(255, 255, 255);  width: 105%;  padding: 5px;}
+[role="tooltip"].popup-content {
+	width: 440px;
+	box-shadow: 0 0 3px rgba(0,0,0,.16);
+	border-radius: 5px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+.icon{
+    height: 30px;
+    padding: 3px;
+    border-radius: 5px;
+    margin-right: 10px;
+    box-shadow: 0px 2px 2px #bfbfbf;
+}
+.popup-button{
+    background-color: white;
+    border: 0px;
+    cursor: pointer;
+}
+.login{
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    border: 0px solid;
+    padding: 10px 30px;
+    width: 90%;
+}
+.side-bar{
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+.side-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 10px;
+}

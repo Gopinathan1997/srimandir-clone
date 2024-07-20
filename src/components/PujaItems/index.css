@@ -1,0 +1,26 @@
+.puja-list-container{
+    width: 100%;
+    list-style-type:none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+}
+.puja-list-item{
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #808080;
+    border-radius: 15px;
+    box-shadow: 0px 2px 2px #bfbfbf;
+}
+.puja-list-image{
+    width: 100%;
+}
+.participate{
+    width: 100%;
+    padding:10px 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+    background-color: rgb(84, 192, 84);
+}
